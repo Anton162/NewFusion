@@ -1,0 +1,299 @@
+/* lato-regular - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../fonts/lato-v24-latin-regular.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lato-700 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/lato-v24-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+/* lato-900 - latin */
+@font-face {
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Lato";
+  font-style: normal;
+  font-weight: 900;
+  src: url("../fonts/lato-v24-latin-900.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container {
+  width: 1600px;
+  margin: 0 auto;
+}
+
+.head {
+  display: flex;
+  justify-content: space-between;
+  background-color: #222222;
+  
+}
+
+.logo_left {
+  display: flex;
+  justify-content: start;
+  gap: 41px;
+  padding: 18px 0 19px 231px;
+  align-items: center;
+}
+
+.logo_right {
+  display: flex;
+  justify-content: end;
+  gap: 33px;
+  padding: 26px 240px 20px 0;
+  align-items: center;
+}
+
+.main_str {
+  display: flex;
+  background-color: #f1e4e6;
+}
+
+.title1 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 58px;
+  color: #222222;
+}
+
+.title2 {
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 38px;
+  color: #222222;
+}
+
+.main_text {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  margin-top: 289px;
+}
+
+.colorText {
+  color: #f16d7f;
+}
+
+.sale {
+  display: grid;
+  align-items: center;
+  gap: 30px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr;
+  padding-top: 65px;
+  padding-bottom: 96px;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+.card_sale {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+
+.card_sale_big {
+  grid-column: span 3;
+  grid-row: span 2;
+  
+}
+
+.sale_text {
+  position: absolute;
+  font-style: normal;
+  color: #fff;
+  text-align: center;
+  font-size: 16px;
+  font-family: Lato;
+  font-weight: 900px;
+  top: 37%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.sale_text2 {
+  position: absolute;
+  font-style: normal;
+  text-align: center;
+  font-size: 24px;
+  font-family: Lato;
+  color: #f16d7f;
+  font-weight: 700;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.img_grey {
+  filter: brightness(40%);
+}
+
+.clothes_text {
+  text-align: center;
+  color: #222;
+  font-size: 30px;
+  font-weight: 400;
+  font-family: Lato;
+  margin-bottom: 6px;
+}
+
+.clothes_text2 {
+  text-align: center;
+  color: #9f9f9f;
+  font-size: 14px;
+  font-family: Lato;
+}
+
+.card_clothes {
+  width: 1140px;
+  margin: 0 auto;
+  padding-bottom: 96px;
+}
+
+.product_box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  gap: 30px;
+  margin-top: 48px;
+  position: relative;
+}
+
+.img_bezFona {
+  background-color: #f7e4e2;
+  width: 360px;
+  height: 420px;
+}
+
+.product_name {
+  width: 148px;
+  color: #000;
+  font-size: 13px;
+  font-family: Lato;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 16px 0 16px;
+}
+
+.description {
+  display: flex;
+  width: 314.743px;
+  flex-direction: column;
+  color: #5d5d5d;
+  font-size: 14px;
+  font-family: Lato;
+  font-weight: 300;
+  padding: 0 16px 0 16px;
+}
+
+.price {
+  display: flex;
+  width: 52px;
+  flex-direction: column;
+  color: #f16d7f;
+  font-size: 16px;
+  font-family: Lato;
+  padding-bottom: 20px;
+  padding: 0 16px 24px 16px;
+}
+
+.product_text {
+  display: flex;
+  width: 360px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 16px;
+  background: #f8f8f8;
+}
+
+.btn_bottom {
+  text-align: center
+}
+
+.LoadMore {
+  padding: 15px 39px;
+  color: #F26376;
+  font-size: 16px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid #FF6A6A;
+  background: #FFF;
+}
+
+
+
+/* start dextop version */
+@media (max-width:1300px) {
+  
+}
+@media (max-width:912px) {
+  
+}
+@media (max-width: 768px){
+
+.logo_left {
+  padding: 18px 0 18px 32px;
+}
+.logo_right {
+  margin-left: 424px;
+  padding: 30px 32px 20px 0px;
+}
+
+.main_text {
+  border-left: 12px solid #f16d7f;
+  padding-left: 16px;
+  margin-top: 138px;
+}
+
+.container {
+  max-width: 768px;
+}
+
+.sale {
+  max-width: 734px ;
+  gap: 19.9px;
+  padding: 65px 16px 0 16px;
+}
+
+.card_sale_big {
+  width: 734.581px;
+  padding: 0 16.5px 0 16.5px;
+  margin-left: 16.5px;
+}
+
+.card_clothes {
+  margin-top: 110px;
+  margin-bottom: 72px;
+}
+
+.product_box {
+  grid-template-columns: 1fr 1fr ;
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 16px;
+}
+
+.btn_bottom {
+  margin-top: 32.5px;
+}
+}
