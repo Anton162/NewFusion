@@ -37,7 +37,7 @@
   display: flex;
   justify-content: space-between;
   background-color: #222222;
-  
+
 }
 
 .logo_left {
@@ -55,9 +55,12 @@
   padding: 26px 240px 20px 0;
   align-items: center;
 }
-
+.main_image{
+  width: 50%
+}
 .main_str {
   display: flex;
+  align-items: center;
   background-color: #f1e4e6;
 }
 
@@ -82,7 +85,6 @@
 .main_text {
   border-left: 12px solid #f16d7f;
   padding-left: 16px;
-  margin-top: 289px;
 }
 
 .colorText {
@@ -93,12 +95,14 @@
   display: grid;
   align-items: center;
   gap: 30px;
+  padding-top: 65px;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  padding-top: 65px;
   padding-bottom: 96px;
-  width: 1140px;
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
+  margin-bottom: 109px;
 }
 
 .card_sale {
@@ -109,10 +113,13 @@
   position: relative;
 }
 
+.card_sale img{
+  width: 100%;
+}
+
 .card_sale_big {
   grid-column: span 3;
   grid-row: span 2;
-  
 }
 
 .sale_text {
@@ -122,7 +129,7 @@
   text-align: center;
   font-size: 16px;
   font-family: Lato;
-  font-weight: 900px;
+  font-weight: 900;
   top: 37%;
   left: 50%;
   transform: translate(-50%, -50%);
@@ -162,7 +169,8 @@
 }
 
 .card_clothes {
-  width: 1140px;
+  width: 100%;
+  max-width: 1140px;
   margin: 0 auto;
   padding-bottom: 96px;
 }
@@ -181,9 +189,10 @@
   width: 360px;
   height: 420px;
 }
+.product_content{
 
+}
 .product_name {
-  width: 148px;
   color: #000;
   font-size: 13px;
   font-family: Lato;
@@ -191,17 +200,18 @@
   flex-direction: column;
   gap: 16px;
   padding: 0 16px 0 16px;
+  margin-bottom: 12px
 }
 
 .description {
   display: flex;
-  width: 314.743px;
   flex-direction: column;
-  color: #5d5d5d;
+  color: #5D5D5D;
   font-size: 14px;
   font-family: Lato;
   font-weight: 300;
   padding: 0 16px 0 16px;
+  margin-bottom: 18px;
 }
 
 .price {
@@ -215,15 +225,18 @@
   padding: 0 16px 24px 16px;
 }
 
-.product_text {
+.product_container {
   display: flex;
-  width: 360px;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
   gap: 16px;
   background: #f8f8f8;
 }
+.product_container img {
+  width: 100%;
+}
+
 
 .btn_bottom {
   text-align: center
@@ -245,10 +258,13 @@
 
 /* start dextop version */
 @media (max-width:1300px) {
-  
+  .sale {
+    gap: 18px;
+    padding: 65px 16px 0 16px;
+  }
 }
 @media (max-width:912px) {
-  
+
 }
 @media (max-width: 768px){
 
@@ -262,18 +278,10 @@
 
 .main_text {
   border-left: 12px solid #f16d7f;
-  padding-left: 16px;
-  margin-top: 138px;
 }
 
 .container {
   max-width: 768px;
-}
-
-.sale {
-  max-width: 734px ;
-  gap: 19.9px;
-  padding: 65px 16px 0 16px;
 }
 
 .card_sale_big {
