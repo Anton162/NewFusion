@@ -397,6 +397,7 @@ form button{
   color: white;
   font-size: 14px;
   font-family: Lato;
+  cursor: pointer;
 }
 
 /* SUBSCRIBE end */
