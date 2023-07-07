@@ -429,6 +429,10 @@ form button{
   margin-bottom: 30px;
 }
 
+.media a{
+  text-decoration: none;
+}
+
 .bg_img {
   width: 32px;
   height: 32px;
