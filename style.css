@@ -240,7 +240,7 @@
 
 
 .btn_bottom {
-  text-align: center
+  text-align: center;
   
 }
 
@@ -254,6 +254,12 @@
   line-height: normal;
   border: 1px solid #FF6A6A;
   background: #FFF;
+  cursor: pointer;
+}
+
+.LoadMore:hover {
+  background: #F16D7F;
+  color: #FFFFFF;
 }
 
 /* information start */
