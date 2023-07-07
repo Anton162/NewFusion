@@ -436,6 +436,12 @@ form button{
   margin-bottom: 30px;
 }
 
+.media {
+  display: flex;
+  flex-direction:row;
+  gap: 7px ;
+}
+
 .media a{
   text-decoration: none;
 }
@@ -445,7 +451,10 @@ form button{
   height: 32px;
   border: 1px solid;
   background-color: #f8f8f8;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
 }
 .bg_img:hover {
   background: #F16D7F;
