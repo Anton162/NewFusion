@@ -429,13 +429,15 @@ form button{
   margin-bottom: 30px;
 }
 
-.media_img {
+.bg_img {
   width: 32px;
   height: 32px;
   border: 1px solid;
-  border-color: #f8f8f8;
   background-color: #f8f8f8;
   
+}
+.bg_img:hover {
+  background: #F16D7F;
 }
 
 .media_img:hover {
