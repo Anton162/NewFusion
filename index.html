@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fashion</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="/script.js" defer></script>
   </head>
   <body>
+    <!--header start-->
     <header class="head">
       <h2 style="display: none">head</h2>
       <!--скрытый текст-->
@@ -18,7 +20,9 @@
         /></a>
       </div>
       <div class="logo_right">
-        <a href="menu.html"><img src="/image/menu.png" alt="menu" /></a>
+        <a class="burger__menu" href="#"
+          ><img src="/image/menu.png" alt="menu"
+        /></a>
         <a class="hidden" href="profil.html"
           ><img src="/image/profil.png" alt="profil"
         /></a>
@@ -27,6 +31,9 @@
         /></a>
       </div>
     </header>
+    <!--header end-->
+
+    <!--baner start-->
     <section class="main_str">
       <h2 style="display: none">Main</h2>
       <!--скрытый текст-->
@@ -37,7 +44,50 @@
           OF LUXERIOUS <span class="colorText">FASHION</span>
         </h2>
       </div>
+      <!--burger menu start-->
+      <div class="baner-container">
+        <div class="menu_active hidden">
+          <div class="menu_active__all">
+            <button class="menu_close">
+              <img src="/image/xmark-solid.svg" alt="close" />
+            </button>
+            <h4 class="menu-headding">MENU</h4>
+            <div class="menu_man">
+              <h5 class="menu-text">MAN</h5>
+              <ul class="menu-list">
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#"></a>Bags</li>
+                <li><a href="#"></a>Denim</li>
+                <li><a href="#"></a>T-Shirts</li>
+              </ul>
+            </div>
+            <div class="menu_woman">
+              <h5 class="menu-text">WOMAN</h5>
+              <ul class="menu-list">
+                <li><a href="#"></a>Accessories</li>
+                <li><a href="#"></a>Jackets &amp;&nbsp;Coats</li>
+                <li><a href="#"></a>Polos</li>
+                <li><a href="#"></a>T-Shirts</li>
+                <li><a href="#"></a>Shirts</li>
+              </ul>
+            </div>
+            <div class="menu_kids">
+              <h5 class="menu-text">KIDS</h5>
+              <ul class="menu-list">
+                <li><a href="#">Accessories</a></li>
+                <li><a href="#"></a>Jackets &amp;&nbsp;Coats</li>
+                <li><a href="#"></a>Polos</li>
+                <li><a href="#"></a>T-Shirts</li>
+                <li><a href="#"></a>Shirts</li>
+                <li><a href="#"></a>Bags</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--burger menu end-->
     </section>
+    <!--baner end-->
 
     <!--Sale section start-->
     <section class="sale">

@@ -48,6 +48,101 @@
   align-items: center;
 }
 
+
+/* Burger menu start */
+.baner-container {
+  position: relative;
+  height: 100vh;
+  padding-right: 232px;
+  box-sizing: border-box;
+}
+
+.menu_active {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 232px;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  overflow-y: auto;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.menu_active.hidden {
+  display: none;
+}
+
+.menu_close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.menu_close img {
+  width: 20px;
+  height: 20px;
+}
+
+.menu-headding {
+  margin-top: 32px;
+  margin-bottom: 20px;
+  color: #000;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.menu_man,
+.menu_woman,
+.menu_kids {
+  margin-bottom: 20px;
+  color: #6F6E6E;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu-text {
+  margin: 0;
+  color: #F16D7F;
+  font-family: Lato;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.menu-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.menu-list li {
+  margin-bottom: 10px;
+  padding-left: 53px;
+}
+
+.menu-list ul {
+  margin-left: 32px;
+}
+
+.menu-list li a {
+  text-decoration: none;
+  color: #6F6E6E;
+}
+
+/* Burger menu end */
+
 .logo_right {
   display: flex;
   justify-content: end;
