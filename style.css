@@ -91,6 +91,7 @@
   color: #f16d7f;
 }
 
+/*card sale start */
 .sale {
   display: grid;
   align-items: center;
@@ -231,17 +232,67 @@
   align-items: flex-start;
   gap: 16px;
   background: #f8f8f8;
-  margin-bottom: 48px;
+  position: relative;
+  display: inline-block;
+  max-width: 580px;
 }
 
 .product_container img {
   width: 100%;
+  display: block;
+  max-width: 100%;
+  transition: opacity 0.3s ease;
+}
+
+.product_container .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.product_container:hover img {
+  opacity: 0.7;
+}
+
+.product_container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.product_container .text_bg {
+  display: flex;
+  align-items: center;
+  color: #FFFFFF;
+  font-size: 18px;
+  padding: 10px 20px;
+  border: 1px solid #FFFFFF;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.product_container .text_bg:hover {
+  text-decoration: underline;
+}
+
+.product_container .text_bg img {
+  margin-right: 5px;
+  max-width: 20px;
+  height: auto;
 }
 
 
 .btn_bottom {
   text-align: center;
-  
+  margin-top: 48px;
 }
 
 .LoadMore {
@@ -261,6 +312,7 @@
   background: #F16D7F;
   color: #FFFFFF;
 }
+/* card sale end */
 
 /* information start */
 
@@ -337,7 +389,7 @@ line-height: normal;
   justify-content: space-between;
   align-items: center;
   margin: 0 auto;
-  padding-top:86px; ;
+  padding-top:86px; 
 }
 
 .imgSub{
@@ -347,6 +399,7 @@ line-height: normal;
   width: 359px;
   font-size: 20px;
   text-align: center;
+  padding-top: 40px;
 }
 
 .text_subscribe span:nth-child(1) {
