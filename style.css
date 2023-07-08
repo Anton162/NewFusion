@@ -257,6 +257,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  height: 420px;
 }
 
 .product_container:hover img {
@@ -265,6 +266,7 @@
 
 .product_container:hover .overlay {
   opacity: 1;
+  
 }
 
 
