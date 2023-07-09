@@ -32,7 +32,7 @@
   width: 1600px;
   margin: 0 auto;
 }
-
+/* header start */
 .head {
   display: flex;
   justify-content: space-between;
@@ -48,6 +48,32 @@
   align-items: center;
 }
 
+.logo_right {
+  display: flex;
+  justify-content: end;
+  gap: 33px;
+  padding: 26px 240px 20px 0;
+  align-items: center;
+  
+}
+
+/* badge start */
+.basket_number {
+  display: inline-block;
+  background-color: pink;
+  color: white;
+  font-size: 12px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 16px;
+  margin-left: 5px;
+  position: absolute;
+  
+}
+/* badge end */
+/* header end */
 
 /* Burger menu start */
 .baner-container {
@@ -137,16 +163,9 @@
   text-decoration: none;
   color: #6F6E6E;
 }
-
 /* Burger menu end */
 
-.logo_right {
-  display: flex;
-  justify-content: end;
-  gap: 33px;
-  padding: 26px 240px 20px 0;
-  align-items: center;
-}
+
 .main_image{
   width: 50%
 }
