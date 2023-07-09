@@ -51,8 +51,6 @@
 
 /* Burger menu start */
 .baner-container {
-  position: relative;
-  height: 100vh;
   padding-right: 232px;
   box-sizing: border-box;
 }
@@ -62,7 +60,6 @@
   top: 0;
   right: 0;
   width: 232px;
-  height: 100%;
   background-color: #fff;
   z-index: 9999;
   overflow-y: auto;
@@ -129,7 +126,7 @@
 
 .menu-list li {
   margin-bottom: 10px;
-  padding-left: 53px;
+  padding-left: 33px;
 }
 
 .menu-list ul {
@@ -157,6 +154,7 @@
   display: flex;
   align-items: center;
   background-color: #f1e4e6;
+  position: relative;
 }
 
 .title1 {
